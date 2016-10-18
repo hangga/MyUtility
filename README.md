@@ -20,4 +20,4 @@ Contoh
                         android:ems="10"
                         android:gravity="top|left"
                         android:id="@+id/edtVal" />
-                        ```
+            
