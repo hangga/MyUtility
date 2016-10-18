@@ -9,7 +9,8 @@ android:inputType="numberDecimal"
 ```
 
 Contoh
-```<id.web.hangga.gemi.CustomView.MoneyEditText
+```
+<id.web.hangga.gemi.CustomView.MoneyEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
