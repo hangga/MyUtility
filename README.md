@@ -1,5 +1,5 @@
 # MyUtility
-Kumpulan kelas ecek-ecek tapi pernah berguna.
+Kumpulan kelas yg meskipun *ecek-ecek* tapi pernah berguna.
 
 ## 1. MoneyEditText
 
