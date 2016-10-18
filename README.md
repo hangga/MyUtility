@@ -1,7 +1,7 @@
 # MyUtility
 Kumpulan kelas yg meskipun *ecek-ecek* tapi pernah berguna.
 
-## 1. MoneyEditText
+## 1. [MoneyEditText](https://github.com/hangga/MyUtility/blob/master/MoneyEditText.java)
 
 Pastikan menggunakan input type = numberDecimal
 ```
@@ -22,5 +22,5 @@ Contoh
                         android:id="@+id/edtVal" />
                         ```
                         
- Link [a link](https://github.com/hangga/MyUtility/blob/master/MoneyEditText.java)
+ 
             
