@@ -1,7 +1,7 @@
 # MyUtility
 Kumpulan kelas ecek-ecek tapi pernah berguna.
 
-## 1. neyEditText
+## 1. MoneyEditText
 
 Pastikan menggunakan input type = numberDecimal
 ```
