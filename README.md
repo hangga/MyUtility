@@ -7,6 +7,7 @@ Pastikan menggunakan input type = numberDecimal
 ```
 android:inputType="numberDecimal"
 ```
+
 Contoh
 ```
 <id.web.hangga.gemi.CustomView.MoneyEditText
