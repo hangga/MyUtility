@@ -22,6 +22,8 @@ Contoh
                         android:id="@+id/edtVal" />          
 ```
 ## 2. [ImageViewGlow](https://github.com/hangga/MyUtility/blob/master/ImageViewGlow.java)
+
+![alt tag](https://github.com/hangga/MyUtility/blob/master/device-2016-11-08-052345.png)
 ```
 <id.web.hangga.glow.ImageViewGlow
         android:id="@+id/imgIronman"
