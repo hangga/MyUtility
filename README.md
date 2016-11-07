@@ -19,6 +19,21 @@ Contoh
                         android:hint="@string/nilai"
                         android:ems="10"
                         android:gravity="top|left"
-                        android:id="@+id/edtVal" />                        
- 
-            
+                        android:id="@+id/edtVal" />          
+```
+## 2. [ImageViewGlow](https://github.com/hangga/MyUtility/blob/master/ImageViewGlow.java)
+```
+<id.web.hangga.glow.ImageViewGlow
+        android:id="@+id/imgIronman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ironman"/>
+
+    <id.web.hangga.glow.ImageViewGlow
+        android:id="@+id/imgWolverine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/buzz_wolverine"/>
+```
