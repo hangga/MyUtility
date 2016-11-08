@@ -49,5 +49,5 @@ Contoh
 ![alt_tag](https://github.com/hangga/MyUtility/blob/master/device-2016-11-08-102750.png)
 
 ## 4. [JavaneseCalenderUtils](https://github.com/hangga/MyUtility/blob/master/JavaneseCalenderUtils.java)
-Modul ini berisi algoritma hari pasaran Jawa. 
-Misal Selasa Pahing, 08-Nopember-2016
+Modul ini berisi algoritma hari pasaran Jawa.  
+Misal **Selasa** `Pahing`, **08-Nopember-2016**
