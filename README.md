@@ -39,3 +39,11 @@ Contoh
         android:layout_centerHorizontal="true"
         android:src="@mipmap/buzz_wolverine"/>
 ```
+## 3. [LayoutGlow](https://github.com/hangga/MyUtility/blob/master/LayoutGlow.java)
+```
+<id.web.hangga.glow.LayoutGlow
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"/>
+```
+![alt_tag](https://github.com/hangga/MyUtility/blob/master/device-2016-11-08-102750.png)
