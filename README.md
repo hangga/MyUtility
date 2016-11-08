@@ -50,4 +50,4 @@ Contoh
 
 ## 4. [JavaneseCalenderUtils](https://github.com/hangga/MyUtility/blob/master/JavaneseCalenderUtils.java)
 Modul ini berisi algoritma hari pasaran Jawa.  
-Misal **Selasa** `Pahing`, **08-Nopember-2016**
+Misal:  **Selasa** `Pahing`, **08-Nopember-2016**
