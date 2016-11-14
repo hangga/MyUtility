@@ -53,5 +53,5 @@ Modul ini berisi algoritma hari pasaran Jawa.
 Misal:  **Selasa** `Pahing`, **08-Nopember-2016**
 
 ## 5. [MonthSpinner](https://github.com/hangga/MyUtility/blob/master/MonthSpinner.java)
-Spinner dengan item Nama-nama Bulan (Januari, Februari,... , Desember)
+Spinner dengan item Nama-nama Bulan (Januari, Februari,... , Desember).   
 ![alt_tag](https://github.com/hangga/MyUtility/blob/master/device-2016-11-14-101144.png)
