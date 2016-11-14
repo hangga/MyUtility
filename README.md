@@ -2,7 +2,7 @@
 Kumpulan kelas yg meskipun *ecek-ecek* tapi pernah berguna.
 
 ## 1. [MoneyEditText](https://github.com/hangga/MyUtility/blob/master/MoneyEditText.java)
-
+*MoneyEditText* adalah EditText dengan format money.
 Pastikan menggunakan input type = numberDecimal
 ```
 android:inputType="numberDecimal"
