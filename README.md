@@ -54,4 +54,10 @@ Misal:  **Selasa** `Pahing`, **08-Nopember-2016**
 
 ## 5. [MonthSpinner](https://github.com/hangga/MyUtility/blob/master/MonthSpinner.java)
 Spinner dengan item Nama-nama Bulan (Januari, Februari,... , Desember).   
+```
+<com.poniyem.kangsen.CustomView.MonthSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+            ```
 ![alt_tag](https://github.com/hangga/MyUtility/blob/master/device-2016-11-14-101144.png)
