@@ -19,6 +19,10 @@ import java.util.TimeZone;
  */
 
 public class MonthSpinner extends Spinner {
+
+    private Calendar curentDay = Calendar.getInstance();
+    private String currentMont = new SimpleDateFormat("MMMM").format(curentDay.getTime());
+
     public MonthSpinner(Context context) {
         super(context);
         generateMonth(context);
@@ -34,21 +38,27 @@ public class MonthSpinner extends Spinner {
         generateMonth(context);
     }
 
-    private void generateMonth(Context context){
-        int[] months = {0,1,2,3,4,5,6,7,8,9,10,11};
-        List<String> xVals = new ArrayList<String>();
+    private void generateMonth(Context context) {
+        if (!isInEditMode()) {
+            int[] months = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
+            List<String> xVals = new ArrayList<String>();
 
-        for (int i = 0; i < months.length; i++) {
-            Calendar cal = Calendar.getInstance(TimeZone.getTimeZone("UTC"), new Locale("in"));
-            cal.set(Calendar.MONTH, months[i]);
-            String month_name = new SimpleDateFormat("MMMM").format(cal.getTime());
-            xVals.add(month_name);
+            int idx_default = 0;
+
+            for (int i = 0; i < months.length; i++) {
+                Calendar cal = Calendar.getInstance(TimeZone.getTimeZone("UTC"), new Locale("in"));
+                cal.set(Calendar.MONTH, months[i]);
+                String month_name = new SimpleDateFormat("MMMM").format(cal.getTime());
+                if (currentMont.equals(month_name)) idx_default = i;
+                xVals.add(month_name);
+            }
+            ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(context, R.layout.layout_spinner_month, xVals);
+            // Drop down layout style - list view with radio button
+            dataAdapter.setDropDownViewResource(R.layout.layout_spinner_month);
+
+            // attaching data adapter to spinner
+            this.setAdapter(dataAdapter);
+            this.setSelection(idx_default);
         }
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(context, R.layout.layout_spinner_month, xVals);
-        // Drop down layout style - list view with radio button
-        dataAdapter.setDropDownViewResource(R.layout.layout_spinner_month);
-
-        // attaching data adapter to spinner
-        this.setAdapter(dataAdapter);
     }
 }
