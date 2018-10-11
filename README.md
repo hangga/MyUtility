@@ -87,5 +87,7 @@ Dots Indicator for ViewPager
  viewIncicator = (DotIndicator) findViewById(R.id.viewIncicator);
  mViewPager.setAdapter(mSectionsPagerAdapter);
  viewIncicator.setViewPager(mViewPager);
-        ```
-
+```        
+        
+## 7. [DecimalToHex](https://github.com/hangga/MyUtility/blob/master/DecimalToHex.java)
+Print decimal to hex from 100% to 0%
